@@ -1,5 +1,5 @@
 name: Development build
-runs-on: self-hosted
+run-name: self-hosted
 on:
   pull_request:
     branches-ignore:
