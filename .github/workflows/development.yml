@@ -1,5 +1,4 @@
 name: Development build
-run-name: self-hosted
 on:
   pull_request:
     branches-ignore:
@@ -13,6 +12,7 @@ on:
 jobs:
   build:
     name: Development build
+    runs-on: self-hosted
     strategy:
       matrix:
         include:
